@@ -1,0 +1,30 @@
+<project name="flipkart" default="all">
+
+    <target name="compile">
+
+	<mkdir dir="classes"/>
+	<javac srcdir="src" destdir="classes"/>
+
+     </target>
+     <target name="package">
+
+	 <jar basedir="classes" destfile="lib/fk_db.jar"/>
+	 
+     </target>
+
+     <target name="clean">
+
+	<delete dir="classes">
+
+ <!--   <fileset dir="classes">
+	<fileset dir="classes">
+	</fileset> -->
+	</delete>
+
+      </target>
+
+
+      <target name="all" depends="clean , compile , package"/>
+
+										</project>
+
