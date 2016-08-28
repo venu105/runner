@@ -14,12 +14,12 @@
 
      <target name="clean">
 
-	<delete dir="classes" "lib">
+	<delete dir="classes" "lib"/>
 	
  <!--   <fileset dir="classes">
 	<fileset dir="classes">
 	</fileset> -->
-	</delete>
+	
 
       </target>
 
