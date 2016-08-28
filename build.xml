@@ -14,7 +14,7 @@
 
      <target name="clean">
 
-	<delete dir="classes" "lib"/>
+	<delete dir="classes"/>
 	
  <!--   <fileset dir="classes">
 	<fileset dir="classes">
